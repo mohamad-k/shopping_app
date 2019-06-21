@@ -1,0 +1,15 @@
+{
+  "name": "complete-shopping-app",
+  "version": "1.0.0",
+  "description": "making online shopping app using(React, Redux, Node.js, MongoDB)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Hawari -  Ahmad Alkwifi - Zoya Ebrahimi  ",
+  "license": "MAZ",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15"
+  }
+}
