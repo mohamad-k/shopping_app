@@ -4,7 +4,7 @@ const app = express()
 
 // connect DataBase
 const mongoose = require("mongoose")
-mongoose.connect("mongodb://Alkwifi:Alkwifi1976@ds135049.mlab.com:35049/amz_company_db",{ useNewUrlParser: true }).then(()=>console.log("DataBase Connected")
+mongoose.connect("mongodb://<username>:<password>@ds135049.mlab.com:35049/amz_company_db",{ useNewUrlParser: true }).then(()=>console.log("DataBase Connected")
 )
 
 // Require Schema
